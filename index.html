@@ -6,7 +6,25 @@
     </head>
 
     <body>
-        <h1>Previsualización</h1>
+        <form name="formulario">
+            <!--
+                nombre
+                primer apellido
+                fecha de nacimiento
+                e-mail
+                teléfono
+                password
+                color favorito
+            -->
+            <h1>Registro Usuario</h1>
+
+            Nombre : &nbsp; <input type="text" name="nombre" required="required"/></br></br>
+            Primer Apellido : &nbsp; <input type="text" name="apellido"/><br><br>
+            Fecha de nacimiento : &nbsp; <input type="date" name="fechaNacimiento" required="required"/><br><br>
+            E-mail : &nbsp; <input type="email" name="email" placeholder="example@example.com" required="required"/><br><br>
+            Telefono : &nbsp; <input type="tel" name="telefono" placeholder="+34 123 45 67 89"/><br><br>
+            Contraseña : &nbsp; <input type="password" name="password" required="required"/>
+        </form>
     </body>
 
 </html>
